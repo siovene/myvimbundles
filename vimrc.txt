@@ -1,0 +1,16 @@
+call pathogen#infect()
+filetype off
+syntax on
+filetype plugin indent on
+
+map <F12> :NERDTreeToggle<CR>
+
+" Allows vim-airline to show only without splits
+set laststatus=2
+
+" ColorStepper Keys
+nmap <F6> <Plug>ColorstepPrev
+nmap <F7> <Plug>ColorstepNext
+nmap <S-F7> <Plug>ColorstepReload
+
+set background=dark
