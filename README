@@ -1,2 +1,12 @@
+## About
 This repository contains submodules for the vim plugins I ust on multiple
 machines.
+
+## Instal
+```
+sudo apt-get install -y git cmake python-dev
+mkdir -p ~/.vim/autoload && \
+curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+git clone https://github.com/siovene/myvimbundles.git ~/.vim/bundle
+(cd ~/.vim/bundle; git submodule update --init --recursive)
+(cd ~/.vim/bundle/YouCompleteMe; ./install.sh)
