@@ -37,3 +37,6 @@
 [submodule "typescript-vim"]
 	path = typescript-vim
 	url = https://github.com/leafgarland/typescript-vim.git
+[submodule "vim-gitgutter"]
+	path = vim-gitgutter
+	url = git://github.com/airblade/vim-gitgutter.git

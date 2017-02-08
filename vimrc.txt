@@ -23,3 +23,17 @@ let g:ctrlp_user_command = {
     \ },
   \ 'fallback': 'find %s -type f'
   \ }
+
+set number
+set list
+set ts=4 sw=4 et si
+set nowrap
+colorscheme sialoquent
+set guioptions-=m  "remove menu bar
+set guioptions-=T  "remove toolbar
+set guioptions-=r  "remove right-hand scroll bar
+set guioptions-=L  "remove left-hand scroll bar
+set guifont=Inconsolata\ 10
+
+let g:gitgutter_sign_modified = '•'
+let g:gitgutter_sign_added = '❖'
